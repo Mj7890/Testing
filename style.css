@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+font-family: 'Roboto',sans-serif;
+font-weight: 500px;
+}
+nav section ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color:black;
+    color:white;
+    flex-direction: row;
+    align-items: center;
+    gap:2vh;
+    z-index: 1;
+}
+nav section ul li{
+padding:0 12px;
+
+}
+.brand img{
+   
+    width:5vh;
+    height: 5vh;
+    margin-right:1vh;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size:1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    margin:23px auto;
+    padding:34px;
+    width: 70%;
+    font-family: 'Thin-300','sans-sarif';
+    display: flex;
+    background:url(/assest/banner.jpg),rgba(0,0,0,0.5);
+
+    background-size: cover;
+}
+.bottom{
+    position:sticky;
+    height: 100px;
+   background-color: rgba(0,0,0,0.5);
+    color:white;
+   bottom:'0'; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column ;
+}
+#myProgressBar{
+    width:80vh;
+    cursor:  pointer;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3vh;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: skyblue;
+    color:black;
+    justify-content: space-between;
+    align-items: center;
+    margin:12px 0;
+}
+.songItemContainer{
+    margin-top:2rem;
+}
+.songItem img{
+    width: 43px;
+    margin:23px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.songInfo{
+    margin-top: 20px;
+    position: absolute;
+    left: 33.5vw;
+}
+.songInfo img{
+    width: 8vw;
+    height: 2vw;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    border-radius:'40px';
+}
+
+@media screen and (min-width: 480px){
+  
+}
+
